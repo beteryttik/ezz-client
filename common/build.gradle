@@ -3,7 +3,10 @@ architectury {
 }
 
 dependencies {
-    modImplementation "net.fabricmc:fabric-loader:${fabric_loader}"
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+
+    modImplementation "net.fabricmc:fabric-loader:${project.fabric_loader}"
     compileOnly "com.google.code.gson:gson:2.10.1"
 }
 

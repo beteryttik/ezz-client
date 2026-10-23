@@ -1,0 +1,10 @@
+architectury {
+    common(rootProject.enabled_loaders.split(','))
+}
+
+dependencies {
+    modImplementation "net.fabricmc:fabric-loader:${fabric_loader}"
+    compileOnly "com.google.code.gson:gson:2.10.1"
+}
+
+publishing { publications { } }

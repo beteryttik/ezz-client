@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "ezzclient",
+  "version": "${version}",
+  "name": "Ezz Client",
+  "description": "Ezz Client — HUD, cosmetics, themes, configs.",
+  "authors": ["BETERYT"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["ru.ezz.client.fabric.EzzFabric"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.1" }
+}

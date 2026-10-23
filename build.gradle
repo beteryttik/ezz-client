@@ -1,0 +1,17 @@
+plugins {
+    id 'architectury-plugin' version '3.4-SNAPSHOT'
+    id 'dev.architectury.loom' version '1.7-SNAPSHOT' apply false
+}
+
+architectury {
+    minecraft = project.minecraft_version
+}
+
+subprojects {
+    apply plugin: 'dev.architectury.loom'
+}
+
+allprojects {
+    group = project.mod_group
+    version = project.mod_version
+}

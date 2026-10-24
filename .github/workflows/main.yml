@@ -36,3 +36,4 @@ jobs:
             forge/build/libs/*.jar
             neoforge/build/libs/*.jar
           if-no-files-found: warn
+
